@@ -83,7 +83,7 @@ const Contact = () => {
                   <label htmlFor="firstname" className=" "> Name </label>
                   <input
                     className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-300"
-                    type="text" id="firstname" name="firstname" placeholder="name"
+                    type="text" id="firstname" name="name" placeholder="name"
                     value={formData.name} onChange={handleChange} required />
                 </div>
 
@@ -101,7 +101,7 @@ const Contact = () => {
                   <label htmlFor="message"> Watsup G  </label>
                   <input
                     className="w-full px-4 py-7 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-300"
-                    type="text" id="message" name="message" placeholder="message"
+                    type="text" id="message" name="message" placeholder="type message here"
                     value={formData.message} onChange={handleChange} />
                 </div>
 

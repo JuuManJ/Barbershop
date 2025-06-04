@@ -6,18 +6,18 @@ import { Link } from 'react-router-dom'
 const Services = () => {
     return (
         <div>
-            <div className=' text-white bg-purple-900 p-10 flex space-x-[80px] items-center
-             justify-center mt-10 sm:w-[128vw] md:w-[142vw] lg:w-full '>
+            <div className=' text-white bg-emerald-900 flex justify-center items-center p-10 sm:p-15  space-x-[70px]  mt-10 '>
 
                 {/* haircut  */}
                 <Link to='bookings'>
-                    <div className='flex flex-col items-center border-2 p-10 rounded-lg 
-            transform hover:bg-slate-500 transition duration-500 hover:scale-125 cursor-pointer
-             md:hover:bg-slate-500 md:hover:scale-70 md:hover:transform md:transition-all md:cursor-pointer md:duration-500'>
+                    <div 
+                    className='flex flex-col items-center border-2 p-10  rounded-lg 
+                    transform hover:bg-slate-500 transition duration-500 hover:scale-125 cursor-pointer
+             md:hover:bg-yellow-800 md:hover:scale-70 md:hover:transform md:transition-all md:cursor-pointer md:duration-500'>
                         <div>
                             <img src={haircut} alt="" className='w-12 h-12' />
                         </div>
-                        <div className='font-bold'> Haircut</div>
+                        <div className='font-bold'> Haircut </div>
                         <div>
                             <p>Get your haircut</p>
                             <p className='mt-4 font-bold text-center text-orange-500'>$20</p>
@@ -30,7 +30,7 @@ const Services = () => {
                 {/* beardtrim  */}
                 <Link to='bookings'>
                     <div className='flex flex-col items-center border-2 p-10 rounded-lg
-            transform hover:bg-slate-500 transition duration-500 hover:scale-125 cursor-pointer'>
+            transform hover:bg-yellow-800 transition duration-500 hover:scale-125 cursor-pointer'>
                         <div>
                             <img src={beardtrim} alt="" className='w-12 h-12' />
                         </div>
@@ -46,7 +46,7 @@ const Services = () => {
                 {/* dreadtwist */}
                 <Link to='bookings'>
                     <div className='flex flex-col items-center border-2 p-10 rounded-lg
-            transform hover:bg-slate-500 transition duration-500 hover:scale-125 cursor-pointer'>
+            transform hover:bg-yellow-800 transition duration-500 hover:scale-125 cursor-pointer'>
                         <div>
                             <img src={dreadtwist} alt="" className='w-12 h-12' />
                         </div>

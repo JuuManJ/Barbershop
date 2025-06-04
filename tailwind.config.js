@@ -12,6 +12,9 @@ export default {
       animation: {
         "fade-in": "fadeIn 1.5s ease-out",
       },
+      colors: {
+        barberyellow: '#ffc800',
+      },
     },
   },
   plugins: [],

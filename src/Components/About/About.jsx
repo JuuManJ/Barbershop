@@ -3,7 +3,7 @@ import whatwd from '../../images/WhatWD/whatwd.png'
 const About = () => {
   return (
     <div className=' '>
-      <div className='flex items-center p-4 bg-gray-100 sm:flex-col-reverse sm:w-[130vw] md:w-[141.8vw] lg:w-full '>
+      <div className='flex items-center p-4 bg-gray-100 '>
 
         {/* about image */}
         <div>

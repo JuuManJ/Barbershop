@@ -5,7 +5,7 @@ const Products = () => {
     <div>
 
 
-      <div className='bg-purple-900 mt-8 flex flex-row-reverse justify-around sm:w-[130vw] md:w-[140vw] lg:w-full'>
+      <div className='bg-emerald-900 mt-8 flex flex-row-reverse justify-around '>
         <div className=' '>
           <h2 className='font-bold text-4xl text-white'>Products</h2>
           <p className='leadin-loose tracking-wide text-white'>We sell products for black hair. <br /> Ranging from moisturizers for hair, beards,
